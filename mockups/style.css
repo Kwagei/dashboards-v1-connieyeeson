@@ -1,0 +1,87 @@
+
+body {
+
+    background-color: #f7f9fb;
+}
+
+.heading {
+
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px rgb(168, 166, 166) solid;
+
+}
+
+
+ .heading .searchBar {
+
+    width: 1100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.heading .searchBar input {
+
+    border: none;
+    padding: 10px;
+}
+
+.heading .searchBar span {
+
+
+    background-color: aliceblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.heading .searchBar .inputBar {
+
+    margin-right: 740px;
+}
+
+.heading .searchBar svg {
+
+    fill: grey;
+}
+
+.heading div p {
+
+    width: 200px;
+    font-size: 20px;
+
+}
+
+.section1 {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    
+}
+
+.section1 .menu {
+
+    background-color: aqua;
+    width: 200px;
+    height: 900px;
+}
+
+.childSection {
+
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.childSection div {
+
+    background-color: antiquewhite;
+    height: 290px;
+
+}
