@@ -2,13 +2,14 @@
 body {
 
     background-color: #f7f9fb;
+    font-family: 'Roboto', sans-serif;;
 }
 
 .heading {
 
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px rgb(168, 166, 166) solid;
+    border-bottom: 1px rgb(200, 196, 196) solid;
 
 }
 
@@ -65,9 +66,12 @@ body {
 
 .section1 .menu {
 
-    background-color: aqua;
-    width: 200px;
+    width: 230px;
     height: 900px;
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .childSection {
@@ -83,5 +87,136 @@ body {
 
     background-color: antiquewhite;
     height: 290px;
+    display: flex;
+    align-items: center;
 
+}
+
+.menu .profile {
+
+    height: 50px;
+    width: 228px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 10px;
+    padding: px;
+    border-bottom: 1px solid rgb(212, 208, 208);
+
+}
+
+.menu .profile svg {
+
+    fill: gray;
+    background-color: #b5b5b0;
+}
+
+.menu span img {
+
+    width: 50px;
+    background-color: #f7f9fb;
+    border-radius: 50%;
+}
+
+.menu .chartBar {
+
+    height: 500px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.menu span {
+
+    display: flex;
+    background-color: #f7f9fb;
+    align-items:center;  
+}
+
+.menu p {
+
+    /* background-color: aqua; */
+    margin: 10px;
+    
+}
+
+.blue {
+
+    color: blue;
+}
+
+.menu .chartBar svg {
+
+    width: 23px;
+}
+
+.menu .iconsBar {
+
+    /* background-color: #c8c8c4; */
+
+    height: 90px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    border-top: 2px dashed #b3afaf ;
+    /* border-style:dashed; */
+
+}
+
+
+
+.menu .iconsBar svg {
+
+    width: 23px;
+}
+
+.childSection .dataChart {
+
+    /* background-color: #b3afaf; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+.childSection .dataChart div {
+
+    height: 170px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: #b5b5b0 1px solid;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+
+.childSection .dataChart div  span {
+
+    display: flex;
+    /* background-color: aqua; */
+    align-items: center;
+    width: 220px;
+    justify-content: space-between;
+}
+
+.childSection .dataChart div  span a {
+
+    color: #61b659;
+    text-decoration: none;
+    background-color: #caecc6;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.childSection .dataChart div  span h5 {
+
+    font-size: 20px;
 }
