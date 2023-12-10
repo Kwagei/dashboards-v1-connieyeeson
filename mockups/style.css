@@ -154,8 +154,6 @@ body {
 
 .menu .iconsBar {
 
-    /* background-color: #c8c8c4; */
-
     height: 90px;
     margin-bottom: 200px;
     display: flex;
@@ -163,7 +161,6 @@ body {
     justify-content: space-between;
     padding: 5px;
     border-top: 2px dashed #b3afaf ;
-    /* border-style:dashed; */
 
 }
 
@@ -176,7 +173,6 @@ body {
 
 .childSection .dataChart {
 
-    /* background-color: #b3afaf; */
     display: flex;
     justify-content: space-between;
     padding: 5px;
@@ -201,7 +197,6 @@ body {
 .childSection .dataChart div  span {
 
     display: flex;
-    /* background-color: aqua; */
     align-items: center;
     width: 220px;
     justify-content: space-between;
@@ -219,4 +214,93 @@ body {
 .childSection .dataChart div  span h5 {
 
     font-size: 20px;
+}
+
+.childSection .barChart  {
+
+    background-color: #ffffff;
+    width: 1090px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 1px solid #e1d9d9;
+    display: flex;
+}
+
+.childSection .barChart  {
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+
+.childSection .barChart header {
+
+    display: flex;
+    flex-direction: row;
+    width: 1090px;
+    justify-content: space-between;
+
+}
+
+.childSection .barChart  header span {
+
+    display: flex;
+    width: 440px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.childSection .barChart  header span  p {
+
+    width: 100px;
+
+}
+
+.childSection .barChart  header  input {
+
+    width: 15px;
+    margin-left: 40px;
+
+
+}
+
+.childSection .barChart  header span b {
+
+    margin-right: 290px;
+
+
+}
+
+.childSection .chartData {
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.childSection .chartData span {
+    height: 46px;
+    width: 1090px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.childSection .chartData span span  {
+
+    width: 960px;
+    height: 10px;
+    border-bottom:1px #b5b5b0 dashed; 
+
+    
+}
+
+.childSection .lastSection {
+
+    background-color: #61b659;
+    display: flex;
+    justify-content: space-around;
+
 }
